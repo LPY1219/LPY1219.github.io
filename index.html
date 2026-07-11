@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peiyan Li</title>
+  <meta name="description" content="Peiyan Li — Ph.D. Candidate in Robotics and Embodied AI." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Peiyan Li" />
+  <meta property="og:description" content="Ph.D. Candidate in Robotics and Embodied AI." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon (emoji robot) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Theme toggle (floats top-right) -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+    <span class="theme-icon">◐</span>
+  </button>
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <div class="layout">
+
+    <!-- ============================ SIDEBAR ============================ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <a class="avatar-wrap" href="#top" aria-label="Home">
+          <img id="avatar" class="avatar" src="" alt="" />
+        </a>
+
+        <h1 class="side-name" id="side-name"></h1>
+
+        <p class="side-tagline">
+          <span class="tag-prefix">/</span>
+          <span id="typewriter" class="typewriter"></span><span class="caret">▌</span>
+        </p>
+
+        <p class="side-meta" id="side-title"></p>
+        <p class="side-meta side-affil" id="side-affil"></p>
+        <p class="side-meta side-loc" id="side-loc"></p>
+
+        <div class="side-links" id="side-links"></div>
+
+        <!-- In-page navigation -->
+        <nav class="side-nav" id="side-nav" aria-label="Section navigation"></nav>
+
+        <p class="side-footer" id="side-footer"></p>
+      </div>
+    </aside>
+
+    <!-- ============================ CONTENT ============================ -->
+    <main class="content" id="top">
+
+      <!-- About -->
+      <section class="section section-hero" id="about">
+        <div class="hero-greeting" id="hero-greeting"></div>
+        <div class="bio" id="bio"></div>
+        <div class="contact-card" id="contact-card">
+          <a class="contact-icon-link" id="contact-icon-link" href="#">
+            <span class="contact-icon">✉</span>
+          </a>
+          <span class="contact-body">
+            <span class="contact-note" id="contact-note"></span>
+            <span class="contact-email" id="contact-email"></span>
+          </span>
+        </div>
+        <div class="hero-meta" id="hero-meta"></div>
+      </section>
+
+      <!-- News -->
+      <section class="section" id="news">
+        <h2 class="section-title"><span class="sec-index">01</span> News</h2>
+        <ul class="news-list" id="news-list"></ul>
+      </section>
+
+      <!-- Publications -->
+      <section class="section" id="publications">
+        <h2 class="section-title"><span class="sec-index">02</span> Publications</h2>
+        <div class="pub-filter" id="pub-filter">
+          <button class="filter-btn is-active" data-filter="selected">Selected</button>
+          <a class="filter-btn" href="https://scholar.google.com/citations?user=b8z2YcYAAAAJ&hl=en" target="_blank" rel="noopener">All Publications ↗</a>
+        </div>
+        <div class="pub-list" id="pub-list"></div>
+      </section>
+
+      <!-- Education -->
+      <section class="section" id="education">
+        <h2 class="section-title"><span class="sec-index">03</span> Education</h2>
+        <div class="timeline" id="education-list"></div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience">
+        <h2 class="section-title"><span class="sec-index">04</span> Experience</h2>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <!-- Awards -->
+      <section class="section" id="awards">
+        <h2 class="section-title"><span class="sec-index">05</span> Honors &amp; Awards</h2>
+        <ul class="simple-list" id="awards-list"></ul>
+      </section>
+
+      <!-- Talks -->
+      <section class="section" id="talks">
+        <h2 class="section-title"><span class="sec-index">06</span> Invited Talks</h2>
+        <ul class="simple-list" id="talks-list"></ul>
+      </section>
+
+      <!-- Services -->
+      <section class="section" id="services">
+        <h2 class="section-title"><span class="sec-index">07</span> Academic Service</h2>
+        <ul class="simple-list" id="services-list"></ul>
+      </section>
+
+      <!-- Misc -->
+      <section class="section" id="misc">
+        <h2 class="section-title"><span class="sec-index">08</span> Beyond Research</h2>
+        <p class="misc-text" id="misc-text"></p>
+      </section>
+
+      <footer class="footer">
+        <p id="footer-note"></p>
+        <p class="footer-credit">Built with care · <a href="#top">back to top ↑</a></p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="data/site.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
