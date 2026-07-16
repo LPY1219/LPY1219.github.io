@@ -76,6 +76,8 @@ window.SITE = {
   /* ------------------------------- NEWS -----------------------------------*/
   /* Most recent first. `tag` is an optional emoji/short label.              */
   news: [
+    { date: "2026.07", tag: "🎉", html: `We released <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html" target="_blank" rel="noopener"><strong>Xiaomi-Robotics-1</strong></a>. Feedback welcome!` },
+    { date: "2026.07", tag: "🎉", html: `We released <a href="https://flow-wam.github.io/" target="_blank" rel="noopener"><strong>FlowWAM</strong></a>. Feedback welcome!` },
     { date: "2026.06", tag: "🎉", html: `Our <a href="https://27yw.github.io/E-TTS-Web/" target="_blank" rel="noopener"><strong>E-TTS</strong></a> has been accepted by ECCV 2026!` },
     { date: "2026.04", tag: "🎉", html: `We released <a href="https://lpy1219.github.io/MV-VDP-Web/" target="_blank" rel="noopener"><strong>SpatialVAM</strong></a>. Feedback welcome!` },
     { date: "2025.09", tag: "🎉", html: `<a href="https://bridgevla.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA</strong></a> was accepted by <strong>NeurIPS 2025</strong>!` },
@@ -84,6 +86,23 @@ window.SITE = {
   /* --------------------------- PUBLICATIONS -------------------------------*/
   /* Newest / most important first. Duplicate a block to add a paper.        */
   publications: [
+    {
+      selected: true,
+      media: "assets/papers/paper_xr1.png",
+      poster: "",
+      title: "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      authors: [ "Core Contributor, alphabetical order"],
+      authorsEqual: [],
+      authorsCorresponding: [""],
+      venue: "Technical Report",
+      year: "2026",
+      tldr: `Xiaomi-Robotics-1 is a vision-language-action foundation model trained on over 100K hours of real-world trajectories. Through large-scale pre-training and cross-embodiment post-training, it generalizes to unseen environments, improves consistently with scale, and adapts efficiently to new dexterous and long-horizon tasks with limited fine-tuning data.`,
+      links: {
+        project: "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+        paper: "https://robotics.xiaomi.com/robot-static-resource/xiaomi-robotics-1/xiaomi-robotics-1.pdf",
+        bibtex: "",
+      },
+    },
     {
       selected: true,
       // media: 论文的 teaser 展示图或演示视频，放在 assets/papers/ 目录下。
@@ -175,6 +194,26 @@ window.SITE = {
         paper: "https://arxiv.org/abs/2606.27268",
         // code: "https://github.com/bytedance/GR-MG/tree/main",
         bibtex: "https://27yw.github.io/E-TTS-Web/",
+      },
+    },
+    {
+      selected: true,
+      media: "assets/papers/paper_flowwam.png",
+      poster: "",
+      title: "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      authors: ["Yixiang Chen", "Peiyan Li","Yuan Xu","Qisen Ma","Jiabing Yang",
+        "Kai Wang","Jianhua Yang","Dong An","He Guan","Goteng Liu","Jianlou Si","Jun Huang","Jing Liu","Nianfeng Liu","Yan Huang", "Liang Wang"],
+      authorsEqual: ["Yixiang Chen", "Peiyan Li"],
+      // authorsCorresponding: ["Senior Author"],
+      venue: "arxiv",
+      year: "2026",
+      award: "",
+      tldr: `World Action Models repurpose pretrained video generators for control, but a modality gap remains: action signals must align with visual priors while retaining dense motion cues. FlowWAM bridges this gap with optical flow—a video-native, spatially grounded action representation extractable from unlabeled video. Its shared dual-stream diffusion model predicts flow, conditions world modeling on flow, and pretrains at scale on unlabeled video`,
+      links: {
+        project: "https://flow-wam.github.io/",
+        paper: "https://arxiv.org/pdf/2607.13017",
+        // code: "https://github.com/bytedance/GR-MG/tree/main",
+        bibtex: "",
       },
     },
     {
