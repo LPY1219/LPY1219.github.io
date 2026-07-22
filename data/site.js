@@ -91,7 +91,7 @@ window.SITE = {
       media: "assets/papers/paper_xr1.png",
       poster: "",
       title: "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
-      authors: [ "Core Contributor, alphabetical order"],
+      authors: [ "Core contributor on pretraining and simulation"],
       authorsEqual: [],
       authorsCorresponding: [""],
       venue: "Technical Report",
