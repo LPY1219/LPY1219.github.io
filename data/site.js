@@ -76,6 +76,7 @@ window.SITE = {
   /* ------------------------------- NEWS -----------------------------------*/
   /* Most recent first. `tag` is an optional emoji/short label.              */
   news: [
+    { date: "2026.08", tag: "🎉", html: `We released <a href="https://bridgevla-plus.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA++</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html" target="_blank" rel="noopener"><strong>Xiaomi-Robotics-1</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://flow-wam.github.io/" target="_blank" rel="noopener"><strong>FlowWAM</strong></a>. Feedback welcome!` },
     { date: "2026.06", tag: "🎉", html: `Our <a href="https://27yw.github.io/E-TTS-Web/" target="_blank" rel="noopener"><strong>E-TTS</strong></a> has been accepted by ECCV 2026!` },
@@ -86,6 +87,24 @@ window.SITE = {
   /* --------------------------- PUBLICATIONS -------------------------------*/
   /* Newest / most important first. Duplicate a block to add a paper.        */
   publications: [
+    {
+      selected: true,
+      media: "assets/papers/paper_bridgevla++.png",
+      poster: "",
+      title: "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
+      authors: [ "Peiyan Li", "Yuze Zhu", "Yixiang Chen", "Qisen Ma", "Yuan Xu", "Jiabing Yang", "He Guan", "Yan Huang", "Hongtao Wu", "Xiao Ma", "Tao Kong", "Liang Wang", "Tieniu Tan"],
+      authorsEqual: ["Peiyan Li", "Yuze Zhu"],
+      authorsCorresponding: ["Yan Huang"],
+      venue: "arxiv",
+      year: "2026",
+      tldr: `BridgeVLA++ augments the data-efficient BridgeVLA with unified spatio-temporal memory, enabling history-aware decision-making and geometry-aware action localization while achieving state-of-the-art memory-dependent manipulation and strong OOD generalization.`,
+      links: {
+        project: "https://bridgevla-plus.github.io/",
+        paper: "https://bridgevla-plus.github.io/static/pdfs/bridgevla_plus.pdf",
+        code: "https://github.com/BridgeVLA/BridgeVLA",
+        bibtex: "",
+      },
+    },
     {
       selected: true,
       media: "assets/papers/paper_xr1.png",
@@ -100,7 +119,7 @@ window.SITE = {
       links: {
         project: "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
         paper: "https://robotics.xiaomi.com/robot-static-resource/xiaomi-robotics-1/xiaomi-robotics-1.pdf",
-        bibtex: "",
+        bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:E6cUpJZwpggJ:scholar.google.com/&output=citation&scisdr=CslGWnazENmHoaBWq28:AM1tuoMAAAAAanNQs2_6wAOOMiAzESsVfvZ0aaA&scisig=AM1tuoMAAAAAanNQs88Zm1lQSoWyZ2wSkrlhQes&scisf=4&ct=citation&cd=-1&hl=zh-CN",
       },
     },
     {
