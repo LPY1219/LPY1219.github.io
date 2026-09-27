@@ -76,6 +76,7 @@ window.SITE = {
   /* ------------------------------- NEWS -----------------------------------*/
   /* Most recent first. `tag` is an optional emoji/short label.              */
   news: [
+    { date: "2026.09", tag: "🎉", html: `Three papers were accepted by <strong>NeurIPS 2026</strong>!` },
     { date: "2026.08", tag: "🎉", html: `We released <a href="https://bridgevla-plus.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA++</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html" target="_blank" rel="noopener"><strong>Xiaomi-Robotics-1</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://flow-wam.github.io/" target="_blank" rel="noopener"><strong>FlowWAM</strong></a>. Feedback welcome!` },
@@ -139,7 +140,7 @@ window.SITE = {
       // Mark yourself bold automatically by matching profile.name; mark others:
       authorsEqual: ["Peiyan Li", "Yixiang Chen"],           // names with equal contribution (gets *)
       authorsCorresponding: [], // gets †
-      venue: "arxiv",
+      venue: "NeurIPS",
       year: "2026",
       award: "",   // "" if none
       tldr: `We introduce the first 3D video action model that jointly predicts multi-view RGB frames and heatmaps, bridging video prediction and action recognition in a data-efficient, robust, generalizable, and interpretable manner.`,
