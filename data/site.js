@@ -311,7 +311,7 @@ window.SITE = {
 
   /* ------------------------------ SERVICES --------------------------------*/
   services: [
-    "Reviewer: NeurIPS, ICML, CVPR, ECCV",
+    "Reviewer: NeurIPS, ICML, CVPR, ECCV, ICLR, ICRA",
   ],
 
   /* -------------------------------- MISC ----------------------------------*/
