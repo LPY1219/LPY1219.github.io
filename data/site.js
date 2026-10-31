@@ -81,7 +81,7 @@ window.SITE = {
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html" target="_blank" rel="noopener"><strong>Xiaomi-Robotics-1</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://flow-wam.github.io/" target="_blank" rel="noopener"><strong>FlowWAM</strong></a>. Feedback welcome!` },
     { date: "2026.06", tag: "🎉", html: `Our <a href="https://27yw.github.io/E-TTS-Web/" target="_blank" rel="noopener"><strong>E-TTS</strong></a> has been accepted by ECCV 2026!` },
-    { date: "2026.04", tag: "🎉", html: `We released <a href="https://lpy1219.github.io/MV-VDP-Web/" target="_blank" rel="noopener"><strong>SpatialVAM</strong></a>. Feedback welcome!` },
+    { date: "2026.04", tag: "🎉", html: `We released <a href="https://spatialvam.github.io/" target="_blank" rel="noopener"><strong>SpatialVAM</strong></a>. Feedback welcome!` },
     { date: "2025.09", tag: "🎉", html: `<a href="https://bridgevla.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA</strong></a> was accepted by <strong>NeurIPS 2025</strong>!` },
   ],
 
@@ -145,7 +145,7 @@ window.SITE = {
       award: "",   // "" if none
       tldr: `We introduce the first 3D video action model that jointly predicts multi-view RGB frames and heatmaps, bridging video prediction and action recognition in a data-efficient, robust, generalizable, and interpretable manner.`,
       links: {
-        project: "https://lpy1219.github.io/MV-VDP-Web/home_page.html",
+        project: "https://spatialvam.github.io/",
         paper: "https://arxiv.org/html/2604.03181",
         // arxiv: "#",
         // code: "#",
