@@ -293,6 +293,7 @@ window.SITE = {
 
   /* ------------------------------- AWARDS ---------------------------------*/
   awards: [
+    { year: "2026", text: "National Scholarship for Doctoral Students"},
     { year: "2026", text: "ARNOLD Challenge Champion @ CVPR 2026 EAI Workshop"},
     { year: "2026", text: "ICML Gold Reviewer"},
     { year: "2025", text: "COLOSSEUM Challenge Champion @ CVPR 2025 GRAIL Workshop"},
