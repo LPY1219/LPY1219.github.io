@@ -76,13 +76,14 @@ window.SITE = {
   /* ------------------------------- NEWS -----------------------------------*/
   /* Most recent first. `tag` is an optional emoji/short label.              */
   news: [
-    { date: "2026.09", tag: "🎉", html: `Three papers were accepted by <strong>NeurIPS 2026</strong>!` },
+    { date: "2026.10", tag: "🎉", html: `I was awarded China’s National Scholarship for Doctoral Students` },
+    { date: "2026.09", tag: "🎉", html: `Three papers were accepted by NeurIPS 2026!` },
     { date: "2026.08", tag: "🎉", html: `We released <a href="https://bridgevla-plus.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA++</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html" target="_blank" rel="noopener"><strong>Xiaomi-Robotics-1</strong></a>. Feedback welcome!` },
     { date: "2026.07", tag: "🎉", html: `We released <a href="https://flow-wam.github.io/" target="_blank" rel="noopener"><strong>FlowWAM</strong></a>. Feedback welcome!` },
     { date: "2026.06", tag: "🎉", html: `Our <a href="https://27yw.github.io/E-TTS-Web/" target="_blank" rel="noopener"><strong>E-TTS</strong></a> has been accepted by ECCV 2026!` },
     { date: "2026.04", tag: "🎉", html: `We released <a href="https://spatialvam.github.io/" target="_blank" rel="noopener"><strong>SpatialVAM</strong></a>. Feedback welcome!` },
-    { date: "2025.09", tag: "🎉", html: `<a href="https://bridgevla.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA</strong></a> was accepted by <strong>NeurIPS 2025</strong>!` },
+    { date: "2025.09", tag: "🎉", html: `<a href="https://bridgevla.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA</strong></a> was accepted by NeurIPS 2025!` },
   ],
 
   /* --------------------------- PUBLICATIONS -------------------------------*/
