@@ -76,6 +76,7 @@ window.SITE = {
   /* ------------------------------- NEWS -----------------------------------*/
   /* Most recent first. `tag` is an optional emoji/short label.              */
   news: [
+    { date: "2026.11", tag: "🎉", html: `Xiaomi-Robotics-1 wins World Internet Conference Leading Science and Technology Award!` },
     { date: "2026.10", tag: "🎉", html: `I was awarded China’s National Scholarship for Doctoral Students!` },
     { date: "2026.09", tag: "🎉", html: `Three papers were accepted by NeurIPS 2026!` },
     { date: "2026.08", tag: "🎉", html: `We released <a href="https://bridgevla-plus.github.io/" target="_blank" rel="noopener"><strong>BridgeVLA++</strong></a>. Feedback welcome!` },
@@ -293,6 +294,7 @@ window.SITE = {
 
   /* ------------------------------- AWARDS ---------------------------------*/
   awards: [
+    { year: "2026", text: "World Internet Conference Leading Science and Technology Award"},
     { year: "2026", text: "National Scholarship for Doctoral Students"},
     { year: "2026", text: "ARNOLD Challenge Champion @ CVPR 2026 EAI Workshop"},
     { year: "2026", text: "ICML Gold Reviewer"},
